@@ -1,0 +1,87 @@
+Sorting
+
+1. Bubble Sort
+
+7,2,8,5,4
+
+
+7>2 yes
+2,7,8,5,4
+7>8
+2,7,8,5,4
+8>5 yes
+2,7,5,8,4
+8>4 yes
+2,7,5,4,8
+.....
+ for(int i = 0;i<arr.length;i++)
+        {
+            for(int j = 0;j<arr.length-i-1;j++)
+            {
+
+
+Dry run table
+
+i 
+
+j
+
+arr[i]
+
+arr[j]
+
+
+10 iterations in order to sort
+
+2,4,5,7,8
+
+2. Quick Sort
+
+large arrays
+
+ecommerce data
+
+1. pivot element choose from the array
+2. put all elements < pivot to the left side
+3. put all elements > pivot to the right side
+
+17 6 5 31 22 41 54 3 13
+
+p = 13
+
+left pointer = 17
+right pointer = 3
+
+17>p true
+3<p true
+
+swap the pointers
+move the pointers 
+
+3 6 5 31 22 41 54 17 13
+
+lp = 6;rp = 54
+
+6>13
+54<13
+
+false
+pointers moved
+lp = 5;rp = 41
+5>13
+41<13
+false
+lp =31;rp=22
+31>13
+22<13
+false
+3 6 5 31 22 41 54 17 13
+31 -> converge at 31
+31 >13 -> swap
+3 6 5 13 31 22 41 54 17
+
+
+
+
+
+
