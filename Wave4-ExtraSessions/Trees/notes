@@ -1,0 +1,37 @@
+Binary Tree/Binary Search Tree
+
+Linear Datastructure
+1. array    1 2 3 4 -> all of them are stored in a particular order
+2. linked list 1 2 3 4 primitive,objects 
+Non-Linear Datastructure
+1. trees  6 1 2 2 3 4 5
+
+1
+1    2
+2 3   4  5
+
+
+        6
+   1
+      2
+     2   3
+            4
+             5
+
+
+
+
+
+Binary tree -> root -> left child and a right child
+
+heap memory
+objects -> 
+
+class -> objects, primitive types -> stack memory,
+
+
+78
+76  79
+      89
+     87  90   
+
