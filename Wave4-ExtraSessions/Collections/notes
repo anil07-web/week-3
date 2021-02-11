@@ -1,0 +1,24 @@
+What are Collections ?
+API -> help to store data in a particular data structure of your choice
+
+1. List
+2. Set 
+3. Map
+
+
+Interfaces -> set of rules that are given
+
+List -> insert(), delete(), size(), count , ...... 
+
+1. ArrayList - dynamic array 
+10 -> 11 -> 50% in size 15 -> 16 -> .....
+2. LinkedList - 
+
+
+retrieving from the array list is quite easy, add/delete frequently -> db cache memory
+
+add/delete functions -> shopping cart
+
+
+
+
